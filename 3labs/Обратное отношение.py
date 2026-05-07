@@ -4,7 +4,7 @@ def inverse_relation(R):
     """
     Возвращает матрицу обратного отношения R^{-1}
     """
-    n = len(R)
+    n = len(R) 
     R_inv = [[0 for _ in range(n)] for _ in range(n)]
     for i in range(n):
         for j in range(n):
