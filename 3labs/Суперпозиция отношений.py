@@ -12,7 +12,7 @@ def composition_of_relations(R1, R2):
     m1 = len(R1[0])
     n2 = len(R2)
     m2 = len(R2[0])
-    assert(m1 == n2)
+    assert(m1 == n2) 
 
     R3 = [[0 for _ in range(m2)] for _ in range(n1)] 
     
