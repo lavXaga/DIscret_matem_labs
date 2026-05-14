@@ -9,7 +9,7 @@ def composition_of_relations(R1, R2):
     R3 - булева матрица суперпозиции отношений R1 и R2 на множествах A и C
     """
     n1 = len(R1)
-    m1 = len(R1[0])
+    m1 = len(R1[0]) 
     n2 = len(R2)
     m2 = len(R2[0])
     assert(m1 == n2) 
